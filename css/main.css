@@ -40,21 +40,26 @@ table {
 /*
 /*****************************************************************************/
 ul.posts {
-  font-family: 'Noto Sans', sans-serif;
+  font-family: Helvetica, sans-serif;
   list-style-type: none;
-  padding-left: 0;
   width: 100%;
+  margin: 100px 0;
 }
 
 ul.posts li {
   width: 100%;
-  margin: 5px 0;
+  margin: 15px 0;
 }
 
 ul.posts span {
   font-family: 'Noto Sans', sans-serif;
   list-style-type: none;
   padding-left: 0;
+  float: left;
+}
+
+ul.posts a {
+  float:right;
 }
 
 /*****************************************************************************/
@@ -66,7 +71,7 @@ ul.posts span {
 .site {
   font-size: 115%;
   text-align: justify;
-  width: 48em;
+  width: 50em;
   margin: 0 auto 2em;
   line-height: 1.5em;
 }
@@ -76,29 +81,48 @@ ul.posts span {
   text-decoration: none;
 }
 
+.site .header img {
+  height: 150px;
+  display: inline;
+}
+
 .site .header .title {
-  width: 100%;
-  font-size: 4em;
+  margin: 2em 0;
+  font-size: 1em;
   text-align: center;    
+  float: right;
   display: inline-block;
 }
 
-.site .header h1.title a {
-  color: #a00;
+.site .header .title a {
+  color: #000;
+  font-size: 3em;
+  display: inline-block;
 }
 
-.site .header h1.title a:hover {
+.site .header .descrip {
+  color: #000;
+  font-size: 1em;
+  text-align: center;
+}
+
+.icon-github {
+  font-size: 3em;
+  color: black;
+}
+
+.icon-twitter {
+  font-size: 3em;
+  color: #39D1FF;
+}
+
+.site .header .title a:hover {
   color: #000;
 }
 
 .site .header a.extra {
   color: #aaa;
   margin-left: 1em;
-}
-
-.site img {
-  height: 150px;
-  display: inline-block;
 }
 
 .site .header a.extra:hover {
@@ -110,9 +134,11 @@ ul.posts span {
 }
 
 .site .footer {
+  position: absolute;
+  bottom: 0;
   font-size: 80%;
   color: #666;
-  border-top: 4px solid #eee;
+  border-top: 1px solid #eee;
   margin-top: 2em;
   overflow: hidden;
 }
@@ -135,6 +161,7 @@ ul.posts span {
 .site .footer .rss img {
   border: 0;
 }
+
 
 /*****************************************************************************/
 /*
@@ -172,11 +199,4 @@ ul.posts span {
 
 #post pre.terminal code {
   background-color: #333;
-}
-
-
-.time {
-  float: right;
-  font-family: 'Roboto Slab', serif;
-  font-weight: 300;
 }
