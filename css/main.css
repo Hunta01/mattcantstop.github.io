@@ -76,12 +76,11 @@ ul.posts span {
   text-decoration: none;
 }
 
-.site .header h1.title {
+.site .header .title {
   width: 100%;
   font-size: 4em;
   text-align: center;    
   display: inline-block;
-  margin: 1em 0;
 }
 
 .site .header h1.title a {
