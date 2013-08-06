@@ -67,43 +67,29 @@ ul.posts a {
 /* Site
 /*
 /*****************************************************************************/
+body {
+  background-color: #eee;
+}
 
-.site {
+.container {
   font-size: 115%;
-  text-align: justify;
   width: 50em;
   margin: 0 auto 2em;
   line-height: 1.5em;
+  background-color: #EEE;
 }
 
-.site .header a {
-  font-weight: bold;
-  text-decoration: none;
-}
-
-.site .header img {
-  height: 150px;
-  display: inline;
-}
-
-.site .header .title {
+.container .title {
   margin: 2em 0;
   font-size: 1em;
   text-align: center;    
-  float: right;
   display: inline-block;
 }
 
-.site .header .title a {
+.container .title a {
   color: #000;
   font-size: 3em;
   display: inline-block;
-}
-
-.site .header .descrip {
-  color: #000;
-  font-size: 1em;
-  text-align: center;
 }
 
 .icon-github {
