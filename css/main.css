@@ -40,26 +40,23 @@ table {
 /*
 /*****************************************************************************/
 ul.posts {
-  font-family: Helvetica, sans-serif;
-  list-style-type: none;
-  width: 100%;
-  margin: 100px 0;
+margin: 25px 0;
+padding: 0;
 }
 
 ul.posts li {
+  line-height: 2em;
   width: 100%;
-  margin: 15px 0;
-  border-bottom: 1px #64A2C7;
 }
 
-ul.posts span {
+ul.posts li span {
   font-family: 'Noto Sans', sans-serif;
   list-style-type: none;
   padding-left: 0;
   float: left;
 }
 
-ul.posts a {
+ul.posts li a {
   float:right;
 }
 
