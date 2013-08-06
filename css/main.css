@@ -49,6 +49,7 @@ ul.posts {
 ul.posts li {
   width: 100%;
   margin: 15px 0;
+  border-bottom: 1px #64A2C7;
 }
 
 ul.posts span {
@@ -68,8 +69,7 @@ ul.posts a {
 /*
 /*****************************************************************************/
 body {
-  background-color: #64A2C7;
-  color: white;
+  color: #64A2C7;
 }
 
 .container {
@@ -87,7 +87,7 @@ body {
 }
 
 .container .title a {
-  color: white;
+  color: #64A2C7;
   font-size: 3em;
   display: inline-block;
 }
