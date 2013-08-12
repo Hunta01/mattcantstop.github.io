@@ -3,8 +3,8 @@ layout: default
 title: Matthew Duff
 ---
 
-  <ul class="posts">
+  <ul class="posts list-unstyled">
     {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> <a href="{{ post.url }}">{{ post.title }}</a></li>
+      <li><a href="{{ post.url }}">{{ post.title }}</a> <span class='hidden-phone'>{{ post.date | date_to_string }}</span><li>
     {% endfor %}
   </ul>
