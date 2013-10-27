@@ -34,14 +34,14 @@ body {
   margin-top: 25px;
 }
 
-.post li a, li a:visited {
+.post li a, li a:hover {
   color: #FFF;
   padding: 5px 10px;
   text-decoration: none;
 }
 
-.post li a:hover {
-  color: red;
+.post li a:visited {
+  color: #399BE6;
 }
 
 .date {
