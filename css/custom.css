@@ -33,11 +33,27 @@ body {
   margin-top: 5px;
 }
 
-.post li a, li a:visited, li a:hover {
+.post li a, li a:visited {
   color: #FFF;
   padding: 5px 10px;
+  text-decoration: none;
 }
 
+.post li a:hover {
+  color: red;
+}
+
+.post li span .date {
+  padding-top: 2px;
+  float: right;
+  text-transform: uppercase;
+  font-size: 12px;
+  color: #999;
+}
+
+@media screen and (max-width: 750px) {
+    .date { display: none; }
+ }
 
 
 
