@@ -40,6 +40,10 @@ body {
   text-decoration: none;
 }
 
+.post li a:hover {
+  margin-left: 10px;
+}
+
 .post li a:visited {
   color: #399BE6;
 }
