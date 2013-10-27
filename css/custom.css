@@ -8,6 +8,8 @@ body {
   text-align: center;
   font-size: 2.5em;
   line-height: 2.7em;
+  border-top: 5px solid #ecff4f;
+  border-bottom: 5px solid #ecff4f;
   margin: 10px 0;
 }
 
@@ -20,13 +22,13 @@ body {
 }
 
 .post {
-  border-left: 5px solid red;
+  border-left: 5px solid #ecff4f;
+  margin-top: 5px;
 }
 
 .post li a, li a:visited, li a:hover {
   color: #FFF;
   padding: 5px 10px;
-  margin-top: 5px;
 }
 
 
