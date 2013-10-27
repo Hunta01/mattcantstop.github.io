@@ -1,43 +1,14 @@
-.home_page_ref {
-  font-size: 3em;
-  color: #64A2C7;
+body {
+  background-image:url('../images/tweed/tweed.png');
+  color: #FFF;
+}
+
+.title {
   text-align: center;
+  font-size: 1.5em;
+  line-height: 1.7em;
 }
 
-.posts {
-margin: 25px 0;
-padding: 0;
-}
-
-.posts li span {
-padding-top: 2px;
-float: right;
-text-transform: uppercase;
-font-size: 12px;
-color: #999;
-}
-
-li {
-  padding: 0 ;
-}
-
-.social_tabs {
-  text-align: center;
-}
-
-.icons {
-  font-size: 2em;
-  padding: 0 5px;
-}
-
-.icons .icon-twitter a {
-  color: #39D1FF;
-}
-
-.icons .icon-github a {
-  color: black;
-}
-
-.icons .icon-linkedin a {
-  color: #1281BA;
+.title a, a:visited, a:hover {
+  color: #FFF;
 }
